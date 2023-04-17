@@ -7,10 +7,16 @@ import Carousel from "./Carousel";
 
 const Banner = () => {
   return (
-    <div className=" border-b-2 border-b-white bg-bannerBg py-10">
+    <div className=" bg-gradient-to-b from-blue-950 to-black py-10">
       <div className="container mx-auto">
         <div className="text-center">
-          <h1 className=" text-[42px] font-bold ">CryptoView</h1>
+          <h1 className=" inline-block bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text text-[28px] font-bold text-transparent sm:text-[42px]">
+            TRACK AND TRADE
+          </h1>
+          <br />
+          <h2 className=" inline-block bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text text-[28px] font-bold text-transparent sm:text-[42px]">
+            CRYPTO CURRENCIES
+          </h2>
           <p className=" capitalize">
             Get all the info regarding your favorite crypto currency
           </p>

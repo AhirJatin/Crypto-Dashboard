@@ -23,10 +23,10 @@ const Header = () => {
   }, [currency]);
 
   return (
-    <div className="header border-b-2  border-b-gray-50 bg-black py-3">
-      <div className="container mx-auto px-5">
+    <div className="header  bg-blue-950 py-3">
+      <div className="mx-auto px-5">
         <div className=" flex items-center justify-between">
-          <div className=" text-[32px] font-bold text-orange-600">
+          <div className=" text-[32px] font-bold ">
             <Link to="/">CryptoView</Link>
           </div>
           <div className=" font-semibold text-black">

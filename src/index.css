@@ -12,6 +12,14 @@ body {
   color: white;
 }
 
-.container {
+/* .container {
   max-width: 100%;
+} */
+
+.featuresSection {
+  background: radial-gradient(
+    76.08% 100% at 49.97% 100%,
+    var(--blue) 0%,
+    var(--dark-blue) 100%
+  );
 }
